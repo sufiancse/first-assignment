@@ -18,7 +18,7 @@
 .header-bg-img{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
-    margin-bottom: 104px;
+    /* margin-bottom: 104px; */
 }
 nav h2{
     font-size: 34px;
@@ -42,4 +42,29 @@ nav{
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
+}
+
+/* Main section start here */
+
+/* Action section */
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 150px;
+    
+}
+.action-section-text h2{
+    font-size: 42px;
+    font-weight: bold;
+    color:rgba(37, 36, 50, 1);
+}
+.action-section-text p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0;
+}
+.action-section img{
+    border-radius: 48px;
 }
