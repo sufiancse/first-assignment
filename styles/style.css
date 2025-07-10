@@ -107,3 +107,46 @@ nav {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* First option section */
+
+.first-optional-section h1{
+    /* margin: opx 150px 135px 150px; */
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    gap: 20px;
+}
+.card{
+    background-color: #FFFFFF;
+    border: 1px solid #F2EDED;
+    border-radius: 24px;
+    padding: 24px;
+    width: 290px;
+    height: 243px;
+}
+.card p {
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+.card h2{
+    margin-top: 24px ;
+    margin-bottom: 0;
+}
+.cards-inner{
+    display: flex;
+}
+.cards-inner img{
+    border-radius: 9999px;
+    margin-right: 12px;
+    width: 50px;
+    height: 50px;
+}
