@@ -125,7 +125,7 @@ nav {
 .cards-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     gap: 20px;
 }
 
@@ -135,7 +135,7 @@ nav {
     border-radius: 24px;
     padding: 24px;
     width: 290px;
-    height: 243px;
+    height: 203px;
 }
 
 .card p {
@@ -167,7 +167,7 @@ nav {
 .optional-section {
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
-    margin: 0 150px 150px 130px;
+    margin: 0 150px 100px 150px;
     height: 697px;
     border: 1px solid #F2EDED;
     border-radius: 14px;
@@ -193,3 +193,53 @@ nav {
     border-radius: 46px;
     margin-top: 0px;
 }
+
+/* Last Section */
+.last-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 532px;
+    margin-bottom: 50px;
+}
+.last-section h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.last-section input{
+    
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px 220px 20px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.last-section textarea{
+    
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.last-section label{
+    font-size: 18px;
+}
+.last-section button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    padding: 19px 201px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Footer */
