@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared section - everything sharable */
+.primary-button{
+    background-color: #4E47FF;
+    font-size: 16px ;
+    font-weight: bold;
+    color: #FFFFFF ;
+    padding: 12px 36px ;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* header section */
+.header-bg-img{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    margin-bottom: 104px;
+}
+nav h2{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    height: 151px;
+}
+
+.banner{
+    text-align: center;
+    margin: 145px 267px;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+}
