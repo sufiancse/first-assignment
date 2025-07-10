@@ -93,39 +93,43 @@ nav {
     font-weight: bold;
     padding-top: 50px;
 }
-.pro-user-sec-bottom{
+
+.pro-user-sec-bottom {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
-.pro-user-details h1{
+
+.pro-user-details h1 {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
 }
-.pro-user-details p{
+
+.pro-user-details p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 
 
-/* First option section */
+/* Challenge section */
 
-.first-optional-section h1{
-    /* margin: opx 150px 135px 150px; */
+.user-feedback-section h1 {
     font-size: 42px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
     text-align: center;
     margin-bottom: 50px;
 }
-.cards-container{
+
+.cards-container {
     display: flex;
     justify-content: center;
     margin-bottom: 130px;
     gap: 20px;
 }
-.card{
+
+.card {
     background-color: #FFFFFF;
     border: 1px solid #F2EDED;
     border-radius: 24px;
@@ -133,20 +137,59 @@ nav {
     width: 290px;
     height: 243px;
 }
+
 .card p {
     margin-bottom: 24px;
     margin-top: 8px;
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 17px;
 }
-.card h2{
-    margin-top: 24px ;
+
+.card h2 {
+    margin-top: 24px;
     margin-bottom: 0;
 }
-.cards-inner{
+
+.cards-inner {
     display: flex;
 }
-.cards-inner img{
+
+.cards-inner img {
     border-radius: 9999px;
     margin-right: 12px;
     width: 50px;
     height: 50px;
+}
+
+
+/* Optional section */
+
+.optional-section {
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 0 150px 150px 130px;
+    height: 697px;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+}
+
+.optional-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 71px;
+}
+
+.optional-section p {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 16px;
+}
+
+.optional-section button {
+    margin: 20px 0;
+}
+
+.optional-section img {
+    border-radius: 46px;
+    margin-top: 0px;
 }
