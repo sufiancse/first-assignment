@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+body{
+    background-color: #F5F8FF;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -44,10 +48,10 @@
     /* margin-bottom: 104px; */
 }
 
-nav h2 {
+nav h1 {
     font-size: 34px;
     font-weight: bolder;
-    color: #4E47FF;
+    color: #333333;
 }
 
 nav {
@@ -281,18 +285,19 @@ footer{
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 258px;
     text-align: center;
-    padding: 124px 455px;
+    padding: 124px 450px;
     
 }
 footer h1{
     font-size: 100px;
     font-weight: bolder;
-    color: #4E47FF;
+    color: #333333;
     margin-bottom: 10px;
 }
 footer p{
     color: rgba(137, 135, 161, 1);
     margin-bottom: 20px;
+    font-size: 16px;
 }
 footer ul{
     display: flex;
@@ -303,6 +308,7 @@ footer ul li{
 }
 footer li a{
     text-decoration: none;
+    font-size: 18px;
     color: rgba(137, 135, 161, 1);
     transition: 0.4s;
 }
